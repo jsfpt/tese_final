@@ -1,0 +1,177 @@
+
+.right-div {
+    height: 94%;
+    max-height:94%;
+    width: 60%;
+    margin-left: 69%;;
+    padding-right: 29.5%;
+    /*background-color: lime;*/
+    /*background:#007bff;*/
+    background: rgb(118,255,255);
+    background: linear-gradient(90deg, rgba(118,255,255,1) 0%, rgba(205,246,255,1) 49%, rgba(32,255,255,1) 100%);
+    border-spacing: 15px;
+    padding-left: 1%;
+    padding-top: 1%;
+    border: #007bff;
+    border-radius: 5px;
+    border: 4px;
+    font-size: 15px;
+
+}
+
+
+#right-div {
+    width: 30.5%;
+    height: 99%;
+    max-height: 99%;
+    border-spacing: 15px;
+    padding-left: 1%;
+    padding-top: 1%;
+    border: #007bff;
+    border-radius: 5px;
+    border: 4px;
+    font-size: 15px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+
+    /*background: rgb(118,255,255);
+    background: linear-gradient(90deg, rgba(118,255,255,1) 0%, rgba(205,246,255,1) 49%, rgba(32,255,255,1) 100%);
+    */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7db9e8+0,3269ff+24,3269ff+24&0+0,1+98 */
+    background: -moz-linear-gradient(-45deg, rgba(125,185,232,0) 0%, rgba(50,105,255,0.24) 24%, rgba(50,105,255,1) 98%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(125,185,232,0) 0%,rgba(50,105,255,0.24) 24%,rgba(50,105,255,1) 98%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(125,185,232,0) 0%,rgba(50,105,255,0.24) 24%,rgba(50,105,255,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#3269ff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+.infoTitle{
+    position: absolute;
+    width: 60%;
+    font-size: 30px;
+
+}
+
+
+.divInfo{
+
+}
+
+.listInfo{
+
+    padding-left:3%;
+    border-radius: 5px;
+    border: 4px;
+    border-top-width: 1%;
+    border-bottom: 1%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+
+
+}
+
+.title:hover {
+    background-color:#7abaff;
+
+
+}
+
+.mainInfo{
+    /* Padding left iterative, get father paddind and sum 2%*/
+    width: 96.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left:2%;
+    padding-right:5%;
+
+    background:#edfffd;
+    border-radius: 5px;
+    border: 4px;
+    border-top-width: 1%;
+    border-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+
+
+
+}
+
+
+.title{
+    /*padding-left:5px;*/
+    background:#42cef5;
+    border: #007bff;
+    border-radius: 5px;
+    border: 4px;
+    border: 4px;
+    border-top-width: 1%;
+    border-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /*font-size: 25px;*/
+    font-family: "Courier New";
+
+}
+
+
+.titleLink{
+    /*padding-left:5px;*/
+    background:#42cef5;
+    border: #007bff;
+    border-radius: 5px;
+    border: 4px;
+    border: 4px;
+    border-top-width: 1%;
+    border-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Courier New";
+
+}
+
+.allInfo{
+    padding-left: 2%;
+}
+
+.serviceInfo{
+    background: #9fcdff;
+    border-radius: 5px;
+    border: 4px;
+    border-top-width: 1%;
+    border-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+}
+
+.serviceInfoDropDown:hover {
+    background:#7abaff;
+}
+
+
+.serviceInfoDropDown{
+    background: #9fcdff;
+    border-radius: 5px;
+    border: 4px;
+    border-top-width: 1%;
+    border-bottom: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+
+}
+
+#dropDown{
+    margin: 0%;
+}
+
+
+#dropDownImage{
+    margin-right: 6%;
+}

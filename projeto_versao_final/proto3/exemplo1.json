@@ -1,0 +1,65 @@
+{"nodes":[
+  {
+    "name": "service1"
+  },
+  {
+    "name": "service2"
+  },
+  {
+    "name": "service3"
+  },
+  {
+    "name": "service4"
+  },
+  {
+    "name": "service5"
+  },
+  {
+    "name": "service6"
+  },
+  {
+    "name": "service7"
+  },
+  {
+    "name": "service8"
+  }
+]
+,
+"links": [
+  {
+    "source": "service1",
+    "target": "service2",
+    "count": "23"
+  },
+  {
+    "source": "service2",
+    "target": "service3",
+    "count": "31"
+  },
+  {
+    "source": "service3",
+    "target": "service4",
+    "count": "32"
+  },
+  {
+    "source": "service3",
+    "target": "service5",
+    "count": "13"
+  },
+  {
+    "source": "service5",
+    "target": "service6",
+    "count": "34"
+  },
+  {
+    "source": "service5",
+    "target": "service7",
+    "count": "31"
+  },
+  {
+    "source": "service5",
+    "target": "service8",
+    "count": "32"
+  }
+]
+}

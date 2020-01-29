@@ -1,0 +1,13 @@
+Way of showing the info
+list inside of list:
+
+
+<h4>An Unordered List:</h4>
+<ul>
+  <div>Coffee</div>
+  <div>Tea</div>
+  <div>Milk</div>
+</ul>
+
+
+inside each div i can add another list or something else

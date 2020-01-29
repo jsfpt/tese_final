@@ -1,0 +1,69 @@
+Info para configuração:
+
+      -Time resolution
+
+      -Init time
+
+      -End time
+
+      -For each exate time:
+        - A list of services
+        - A list of edges.
+        - A list of Workflows  (edge sequence, for each edge: http code, response time)
+        //- A list of problems in services              |(para além dos problemas calculados pelo tempo de resposta e do número de requests por cada http code)
+        - A list of edges in edges                    |( problemas extra, anotados previamente)
+
+
+
+Service:
+
+    -Name
+                                   |
+    - Ip                            |
+                                   |
+    -
+                                   |
+    -Info de região                |
+                                   |
+    -Número total de requests
+
+    -Http codes, número de requests por cada http code
+
+    -Tempo de resposta médio
+
+    -Número de vizinhos
+
+    -Lista de problemas previamente anotados,     (para além dos problemas calculados pelo tempo de resposta e do número de requests por cada http code)
+
+
+Edge:
+  - id do service From,id serice target.
+  -  Lista de http codes, para cada http code diferente:
+        - Tempo de resposta médio
+        - Nº de requests para cada
+
+  - Tempo de resposta médio geral
+
+
+Workflows
+  - Sequência de edges correspondentes ao Workflow
+
+  - Para cada edge:
+
+      - lista de http codes:
+            - tempo médio de resposta por cada.
+
+            - Número de requests por cada diferente
+
+
+  - Descrição de erro, nulo se não houver:
+      -tipos de erros relacionados com:
+        - http codes
+
+        - tempos de resposta
+
+        - Service not found
+
+        - Not reply
+
+        ....

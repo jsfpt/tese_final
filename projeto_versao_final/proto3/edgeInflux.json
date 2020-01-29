@@ -1,0 +1,923 @@
+{
+  "timestamp": 1579888117,
+  "edge_influx_list": [
+    {
+      "from": "instance3",
+      "target": "instance36",
+      "httpCodesList": [
+        {
+          "code": "423 Locked",
+          "numberRequests": 1,
+          "meanTime": 48
+        },
+        {
+          "code": "431 Request Header Fields Too Large",
+          "numberRequests": 11,
+          "meanTime": 3
+        },
+        {
+          "code": "205 Reset Content",
+          "numberRequests": 1,
+          "meanTime": 57
+        },
+        {
+          "code": "424 Failed Dependency",
+          "numberRequests": 52,
+          "meanTime": 67
+        },
+        {
+          "code": "429 Too Many Requests",
+          "numberRequests": 15,
+          "meanTime": 1
+        },
+        {
+          "code": "411 Length Required",
+          "numberRequests": 1,
+          "meanTime": 1
+        },
+        {
+          "code": "410 Gone",
+          "numberRequests": 120,
+          "meanTime": 11
+        },
+        {
+          "code": "416 Requested Range Not Satisfiable",
+          "numberRequests": 74,
+          "meanTime": 9
+        },
+        {
+          "code": "226 IM Used",
+          "numberRequests": 40,
+          "meanTime": 173
+        }
+      ]
+    },
+    {
+      "from": "instance14",
+      "target": "instance12",
+      "httpCodesList": [
+        {
+          "code": "422 Unprocessable Entity",
+          "numberRequests": 1,
+          "meanTime": 23
+        },
+        {
+          "code": "506 Variant Also Negotiates",
+          "numberRequests": 32,
+          "meanTime": 36
+        },
+        {
+          "code": "510 Not Extended",
+          "numberRequests": 1,
+          "meanTime": 9
+        },
+        {
+          "code": "499 Client Closed Request",
+          "numberRequests": 1,
+          "meanTime": 5
+        },
+        {
+          "code": "305 Use Proxy",
+          "numberRequests": 27,
+          "meanTime": 20
+        },
+        {
+          "code": "409 Conflict",
+          "numberRequests": 318,
+          "meanTime": 1
+        },
+        {
+          "code": "409 Conflict",
+          "numberRequests": 55,
+          "meanTime": 43
+        },
+        {
+          "code": "418 I\u0027m a teapot",
+          "numberRequests": 64,
+          "meanTime": 37
+        },
+        {
+          "code": "226 IM Used",
+          "numberRequests": 6,
+          "meanTime": 1
+        },
+        {
+          "code": "304 Not Modified",
+          "numberRequests": 1,
+          "meanTime": 9
+        },
+        {
+          "code": "409 Conflict",
+          "numberRequests": 1,
+          "meanTime": 151
+        },
+        {
+          "code": "226 IM Used",
+          "numberRequests": 12,
+          "meanTime": 1
+        },
+        {
+          "code": "505 HTTP Version Not Supported",
+          "numberRequests": 1,
+          "meanTime": 119
+        },
+        {
+          "code": "300 Multiple Choices",
+          "numberRequests": 10,
+          "meanTime": 31
+        },
+        {
+          "code": "444 Connection Closed Without Response",
+          "numberRequests": 5,
+          "meanTime": 5
+        },
+        {
+          "code": "414 Request-URI Too Long",
+          "numberRequests": 23,
+          "meanTime": 6
+        },
+        {
+          "code": "502 Bad Gateway",
+          "numberRequests": 39,
+          "meanTime": 1
+        },
+        {
+          "code": "451 Unavailable For Legal Reasons",
+          "numberRequests": 5,
+          "meanTime": 8
+        }
+      ]
+    },
+    {
+      "from": "instance20",
+      "target": "instance23",
+      "httpCodesList": [
+        {
+          "code": "201 Created",
+          "numberRequests": 129,
+          "meanTime": 1
+        },
+        {
+          "code": "501 Not Implemented",
+          "numberRequests": 5,
+          "meanTime": 104
+        },
+        {
+          "code": "301 Moved Permanently",
+          "numberRequests": 7,
+          "meanTime": 51
+        },
+        {
+          "code": "206 Partial Content",
+          "numberRequests": 3,
+          "meanTime": 3
+        },
+        {
+          "code": "300 Multiple Choices",
+          "numberRequests": 201,
+          "meanTime": 78
+        },
+        {
+          "code": "508 Loop Detected",
+          "numberRequests": 60,
+          "meanTime": 1
+        },
+        {
+          "code": "410 Gone",
+          "numberRequests": 14,
+          "meanTime": 11
+        },
+        {
+          "code": "431 Request Header Fields Too Large",
+          "numberRequests": 6,
+          "meanTime": 5
+        },
+        {
+          "code": "499 Client Closed Request",
+          "numberRequests": 57,
+          "meanTime": 89
+        },
+        {
+          "code": "406 Not Acceptable",
+          "numberRequests": 162,
+          "meanTime": 44
+        },
+        {
+          "code": "204 No Content",
+          "numberRequests": 17,
+          "meanTime": 87
+        },
+        {
+          "code": "202 Accepted",
+          "numberRequests": 1,
+          "meanTime": 58
+        },
+        {
+          "code": "511 Network Authentication Required",
+          "numberRequests": 66,
+          "meanTime": 4
+        },
+        {
+          "code": "302 Found",
+          "numberRequests": 7,
+          "meanTime": 1
+        }
+      ]
+    },
+    {
+      "from": "instance22",
+      "target": "instance20",
+      "httpCodesList": [
+        {
+          "code": "409 Conflict",
+          "numberRequests": 35,
+          "meanTime": 26
+        },
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 121,
+          "meanTime": 2
+        },
+        {
+          "code": "307 Temporary Redirect",
+          "numberRequests": 41,
+          "meanTime": 105
+        },
+        {
+          "code": "101 Switching Protocols",
+          "numberRequests": 41,
+          "meanTime": 16
+        },
+        {
+          "code": "502 Bad Gateway",
+          "numberRequests": 24,
+          "meanTime": 87
+        },
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 11,
+          "meanTime": 18
+        },
+        {
+          "code": "429 Too Many Requests",
+          "numberRequests": 107,
+          "meanTime": 1
+        },
+        {
+          "code": "100 Continue",
+          "numberRequests": 101,
+          "meanTime": 27
+        },
+        {
+          "code": "510 Not Extended",
+          "numberRequests": 116,
+          "meanTime": 30
+        },
+        {
+          "code": "203 Non-authoritative Information",
+          "numberRequests": 409,
+          "meanTime": 2
+        },
+        {
+          "code": "499 Client Closed Request",
+          "numberRequests": 8,
+          "meanTime": 18
+        },
+        {
+          "code": "406 Not Acceptable",
+          "numberRequests": 171,
+          "meanTime": 1
+        },
+        {
+          "code": "404 Not Found",
+          "numberRequests": 58,
+          "meanTime": 292
+        },
+        {
+          "code": "226 IM Used",
+          "numberRequests": 1,
+          "meanTime": 4
+        }
+      ]
+    },
+    {
+      "from": "instance27",
+      "target": "instance31",
+      "httpCodesList": [
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 1,
+          "meanTime": 1
+        },
+        {
+          "code": "416 Requested Range Not Satisfiable",
+          "numberRequests": 9,
+          "meanTime": 1
+        },
+        {
+          "code": "418 I\u0027m a teapot",
+          "numberRequests": 1,
+          "meanTime": 11
+        },
+        {
+          "code": "201 Created",
+          "numberRequests": 13,
+          "meanTime": 61
+        },
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 14,
+          "meanTime": 50
+        }
+      ]
+    },
+    {
+      "from": "instance6",
+      "target": "instance31",
+      "httpCodesList": [
+        {
+          "code": "413 Payload Too Large",
+          "numberRequests": 78,
+          "meanTime": 132
+        },
+        {
+          "code": "417 Expectation Failed",
+          "numberRequests": 10,
+          "meanTime": 57
+        },
+        {
+          "code": "307 Temporary Redirect",
+          "numberRequests": 49,
+          "meanTime": 87
+        },
+        {
+          "code": "431 Request Header Fields Too Large",
+          "numberRequests": 27,
+          "meanTime": 5
+        },
+        {
+          "code": "407 Proxy Authentication Required",
+          "numberRequests": 16,
+          "meanTime": 3
+        },
+        {
+          "code": "412 Precondition Failed",
+          "numberRequests": 18,
+          "meanTime": 23
+        },
+        {
+          "code": "599 Network Connect Timeout Error",
+          "numberRequests": 26,
+          "meanTime": 7
+        }
+      ]
+    },
+    {
+      "from": "instance16",
+      "target": "instance11",
+      "httpCodesList": [
+        {
+          "code": "412 Precondition Failed",
+          "numberRequests": 64,
+          "meanTime": 21
+        },
+        {
+          "code": "205 Reset Content",
+          "numberRequests": 90,
+          "meanTime": 36
+        },
+        {
+          "code": "403 Forbidden",
+          "numberRequests": 2,
+          "meanTime": 63
+        },
+        {
+          "code": "400 Bad Request",
+          "numberRequests": 22,
+          "meanTime": 12
+        },
+        {
+          "code": "431 Request Header Fields Too Large",
+          "numberRequests": 34,
+          "meanTime": 52
+        },
+        {
+          "code": "208 Already Reported",
+          "numberRequests": 69,
+          "meanTime": 82
+        },
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 30,
+          "meanTime": 31
+        },
+        {
+          "code": "404 Not Found",
+          "numberRequests": 61,
+          "meanTime": 89
+        },
+        {
+          "code": "402 Payment Required",
+          "numberRequests": 2,
+          "meanTime": 18
+        },
+        {
+          "code": "203 Non-authoritative Information",
+          "numberRequests": 31,
+          "meanTime": 65
+        },
+        {
+          "code": "423 Locked",
+          "numberRequests": 25,
+          "meanTime": 28
+        },
+        {
+          "code": "410 Gone",
+          "numberRequests": 48,
+          "meanTime": 18
+        },
+        {
+          "code": "500 Internal Server Error",
+          "numberRequests": 248,
+          "meanTime": 57
+        },
+        {
+          "code": "429 Too Many Requests",
+          "numberRequests": 3,
+          "meanTime": 66
+        },
+        {
+          "code": "508 Loop Detected",
+          "numberRequests": 26,
+          "meanTime": 10
+        },
+        {
+          "code": "100 Continue",
+          "numberRequests": 22,
+          "meanTime": 276
+        }
+      ]
+    },
+    {
+      "from": "instance0",
+      "target": "instance32",
+      "httpCodesList": [
+        {
+          "code": "204 No Content",
+          "numberRequests": 63,
+          "meanTime": 4
+        },
+        {
+          "code": "411 Length Required",
+          "numberRequests": 27,
+          "meanTime": 65
+        },
+        {
+          "code": "423 Locked",
+          "numberRequests": 93,
+          "meanTime": 65
+        },
+        {
+          "code": "203 Non-authoritative Information",
+          "numberRequests": 7,
+          "meanTime": 2
+        },
+        {
+          "code": "205 Reset Content",
+          "numberRequests": 10,
+          "meanTime": 17
+        },
+        {
+          "code": "423 Locked",
+          "numberRequests": 128,
+          "meanTime": 35
+        },
+        {
+          "code": "505 HTTP Version Not Supported",
+          "numberRequests": 80,
+          "meanTime": 6
+        },
+        {
+          "code": "501 Not Implemented",
+          "numberRequests": 33,
+          "meanTime": 3
+        },
+        {
+          "code": "202 Accepted",
+          "numberRequests": 46,
+          "meanTime": 1
+        },
+        {
+          "code": "205 Reset Content",
+          "numberRequests": 41,
+          "meanTime": 54
+        },
+        {
+          "code": "201 Created",
+          "numberRequests": 94,
+          "meanTime": 46
+        },
+        {
+          "code": "424 Failed Dependency",
+          "numberRequests": 8,
+          "meanTime": 90
+        },
+        {
+          "code": "415 Unsupported Media Type",
+          "numberRequests": 13,
+          "meanTime": 27
+        },
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 56,
+          "meanTime": 21
+        },
+        {
+          "code": "444 Connection Closed Without Response",
+          "numberRequests": 244,
+          "meanTime": 24
+        }
+      ]
+    },
+    {
+      "from": "instance29",
+      "target": "instance32",
+      "httpCodesList": [
+        {
+          "code": "301 Moved Permanently",
+          "numberRequests": 83,
+          "meanTime": 19
+        },
+        {
+          "code": "100 Continue",
+          "numberRequests": 51,
+          "meanTime": 76
+        },
+        {
+          "code": "307 Temporary Redirect",
+          "numberRequests": 1,
+          "meanTime": 108
+        },
+        {
+          "code": "423 Locked",
+          "numberRequests": 47,
+          "meanTime": 76
+        },
+        {
+          "code": "304 Not Modified",
+          "numberRequests": 20,
+          "meanTime": 24
+        },
+        {
+          "code": "303 See Other",
+          "numberRequests": 3,
+          "meanTime": 29
+        },
+        {
+          "code": "405 Method Not Allowed",
+          "numberRequests": 122,
+          "meanTime": 39
+        }
+      ]
+    },
+    {
+      "from": "instance34",
+      "target": "instance29",
+      "httpCodesList": [
+        {
+          "code": "413 Payload Too Large",
+          "numberRequests": 20,
+          "meanTime": 10
+        },
+        {
+          "code": "421 Misdirected Request",
+          "numberRequests": 93,
+          "meanTime": 49
+        },
+        {
+          "code": "203 Non-authoritative Information",
+          "numberRequests": 50,
+          "meanTime": 6
+        },
+        {
+          "code": "301 Moved Permanently",
+          "numberRequests": 79,
+          "meanTime": 44
+        },
+        {
+          "code": "418 I\u0027m a teapot",
+          "numberRequests": 36,
+          "meanTime": 29
+        },
+        {
+          "code": "507 Insufficient Storage",
+          "numberRequests": 34,
+          "meanTime": 32
+        },
+        {
+          "code": "400 Bad Request",
+          "numberRequests": 17,
+          "meanTime": 37
+        },
+        {
+          "code": "204 No Content",
+          "numberRequests": 80,
+          "meanTime": 69
+        },
+        {
+          "code": "507 Insufficient Storage",
+          "numberRequests": 57,
+          "meanTime": 7
+        },
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 53,
+          "meanTime": 71
+        },
+        {
+          "code": "501 Not Implemented",
+          "numberRequests": 5,
+          "meanTime": 18
+        },
+        {
+          "code": "404 Not Found",
+          "numberRequests": 7,
+          "meanTime": 14
+        }
+      ]
+    },
+    {
+      "from": "instance19",
+      "target": "instance5",
+      "httpCodesList": [
+        {
+          "code": "422 Unprocessable Entity",
+          "numberRequests": 1,
+          "meanTime": 34
+        },
+        {
+          "code": "511 Network Authentication Required",
+          "numberRequests": 150,
+          "meanTime": 10
+        },
+        {
+          "code": "400 Bad Request",
+          "numberRequests": 1,
+          "meanTime": 21
+        },
+        {
+          "code": "208 Already Reported",
+          "numberRequests": 58,
+          "meanTime": 21
+        },
+        {
+          "code": "428 Precondition Required",
+          "numberRequests": 99,
+          "meanTime": 4
+        },
+        {
+          "code": "308 Permanent Redirect",
+          "numberRequests": 18,
+          "meanTime": 55
+        },
+        {
+          "code": "421 Misdirected Request",
+          "numberRequests": 58,
+          "meanTime": 48
+        },
+        {
+          "code": "400 Bad Request",
+          "numberRequests": 51,
+          "meanTime": 59
+        },
+        {
+          "code": "411 Length Required",
+          "numberRequests": 50,
+          "meanTime": 22
+        },
+        {
+          "code": "408 Request Timeout",
+          "numberRequests": 117,
+          "meanTime": 12
+        },
+        {
+          "code": "415 Unsupported Media Type",
+          "numberRequests": 7,
+          "meanTime": 134
+        },
+        {
+          "code": "599 Network Connect Timeout Error",
+          "numberRequests": 132,
+          "meanTime": 7
+        },
+        {
+          "code": "205 Reset Content",
+          "numberRequests": 113,
+          "meanTime": 360
+        },
+        {
+          "code": "423 Locked",
+          "numberRequests": 116,
+          "meanTime": 3
+        },
+        {
+          "code": "300 Multiple Choices",
+          "numberRequests": 1,
+          "meanTime": 91
+        },
+        {
+          "code": "429 Too Many Requests",
+          "numberRequests": 144,
+          "meanTime": 6
+        },
+        {
+          "code": "411 Length Required",
+          "numberRequests": 36,
+          "meanTime": 67
+        }
+      ]
+    },
+    {
+      "from": "instance12",
+      "target": "instance6",
+      "httpCodesList": [
+        {
+          "code": "101 Switching Protocols",
+          "numberRequests": 63,
+          "meanTime": 31
+        },
+        {
+          "code": "504 Gateway Timeout",
+          "numberRequests": 44,
+          "meanTime": 29
+        },
+        {
+          "code": "431 Request Header Fields Too Large",
+          "numberRequests": 31,
+          "meanTime": 34
+        },
+        {
+          "code": "416 Requested Range Not Satisfiable",
+          "numberRequests": 26,
+          "meanTime": 56
+        },
+        {
+          "code": "431 Request Header Fields Too Large",
+          "numberRequests": 25,
+          "meanTime": 4
+        },
+        {
+          "code": "422 Unprocessable Entity",
+          "numberRequests": 36,
+          "meanTime": 68
+        },
+        {
+          "code": "507 Insufficient Storage",
+          "numberRequests": 110,
+          "meanTime": 117
+        },
+        {
+          "code": "207 Multi-Status",
+          "numberRequests": 119,
+          "meanTime": 64
+        },
+        {
+          "code": "416 Requested Range Not Satisfiable",
+          "numberRequests": 38,
+          "meanTime": 13
+        },
+        {
+          "code": "300 Multiple Choices",
+          "numberRequests": 39,
+          "meanTime": 11
+        },
+        {
+          "code": "507 Insufficient Storage",
+          "numberRequests": 102,
+          "meanTime": 77
+        },
+        {
+          "code": "510 Not Extended",
+          "numberRequests": 1,
+          "meanTime": 84
+        },
+        {
+          "code": "401 Unauthorized",
+          "numberRequests": 48,
+          "meanTime": 94
+        },
+        {
+          "code": "403 Forbidden",
+          "numberRequests": 20,
+          "meanTime": 9
+        },
+        {
+          "code": "502 Bad Gateway",
+          "numberRequests": 1,
+          "meanTime": 85
+        },
+        {
+          "code": "511 Network Authentication Required",
+          "numberRequests": 73,
+          "meanTime": 116
+        },
+        {
+          "code": "301 Moved Permanently",
+          "numberRequests": 8,
+          "meanTime": 13
+        },
+        {
+          "code": "200 OK",
+          "numberRequests": 14,
+          "meanTime": 30
+        },
+        {
+          "code": "206 Partial Content",
+          "numberRequests": 15,
+          "meanTime": 63
+        }
+      ]
+    },
+    {
+      "from": "instance29",
+      "target": "service37",
+      "httpCodesList": [
+        {
+          "code": "303 See Other",
+          "numberRequests": 23,
+          "meanTime": 36
+        },
+        {
+          "code": "305 Use Proxy",
+          "numberRequests": 127,
+          "meanTime": 21
+        },
+        {
+          "code": "424 Failed Dependency",
+          "numberRequests": 7,
+          "meanTime": 7
+        },
+        {
+          "code": "506 Variant Also Negotiates",
+          "numberRequests": 1,
+          "meanTime": 47
+        },
+        {
+          "code": "403 Forbidden",
+          "numberRequests": 70,
+          "meanTime": 12
+        },
+        {
+          "code": "451 Unavailable For Legal Reasons",
+          "numberRequests": 9,
+          "meanTime": 49
+        },
+        {
+          "code": "300 Multiple Choices",
+          "numberRequests": 27,
+          "meanTime": 83
+        },
+        {
+          "code": "202 Accepted",
+          "numberRequests": 75,
+          "meanTime": 10
+        },
+        {
+          "code": "407 Proxy Authentication Required",
+          "numberRequests": 31,
+          "meanTime": 7
+        },
+        {
+          "code": "417 Expectation Failed",
+          "numberRequests": 78,
+          "meanTime": 28
+        },
+        {
+          "code": "504 Gateway Timeout",
+          "numberRequests": 99,
+          "meanTime": 209
+        },
+        {
+          "code": "200 OK",
+          "numberRequests": 11,
+          "meanTime": 76
+        },
+        {
+          "code": "201 Created",
+          "numberRequests": 75,
+          "meanTime": 92
+        },
+        {
+          "code": "205 Reset Content",
+          "numberRequests": 64,
+          "meanTime": 10
+        },
+        {
+          "code": "417 Expectation Failed",
+          "numberRequests": 95,
+          "meanTime": 102
+        }
+      ]
+    }
+  ]
+}

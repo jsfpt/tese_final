@@ -1,0 +1,55 @@
+https://i11www.iti.kit.edu/_media/teaching/winter2016/graphvis/graphvis-ws16-v6.pdf
+
+exemplo com D3
+https://www.youtube.com/watch?v=HP1tOlxVYz4
+
+
+D3, meter a funcionar:
+
+https://www.youtube.com/watch?v=gda35eYXBJc
+
+
+//TODO:
+-sacar os serviços da base de dados e colocar no JSON
+-ler do json e desenhar o grafo a partir do d3
+
+
+Tarjan:
+
+https://www.sanfoundry.com/java-program-tarjan-algorithm/
+
+
+Scroll bar horizontal:
+https://www.youtube.com/watch?v=C9EWifQ5xqA
+
+https://uxdesign.cc/creating-horizontal-scrolling-containers-the-right-way-css-grid-c256f64fc585
+
+https://codyhouse.co/gem/horizontal-timeline
+
+Initiate node position:
+
+http://jsfiddle.net/2eM8Z/1/
+
+
+Drag:
+https://bl.ocks.org/mbostock/4557698
+inst
+
+Zoom:
+https://github.com/d3/d3-zoom
+https://www.d3-graph-gallery.com/graph/interactivity_zoom.html
+
+// sinc all sims
+carregar numa data faz trigger de uma FUNCAO
+essa funcao vê, de acordo com uma variavel, que funcao de sim chamar
+carregar no botao muda a variavel
+
+
+// text box with scroll
+http://bl.ocks.org/billdwhite/36d15bc6126e6f6365d0
+
+// text box
+https://stackoverflow.com/questions/15430189/pure-svg-way-to-fit-text-to-a-box
+
+// linha curva
+https://www.w3schools.com/graphics/svg_path.asp

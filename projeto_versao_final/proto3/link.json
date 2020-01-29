@@ -1,0 +1,52 @@
+[
+  {
+    "source": "instance4",
+    "target": "instance30",
+    "count": "19"
+  },
+  {
+    "source": "instance6",
+    "target": "instance22",
+    "count": "8"
+  },
+  {
+    "source": "instance8",
+    "target": "instance25",
+    "count": "2"
+  },
+  {
+    "source": "instance12",
+    "target": "instance5",
+    "count": "19"
+  },
+  {
+    "source": "instance16",
+    "target": "instance2",
+    "count": "19"
+  },
+  {
+    "source": "instance17",
+    "target": "instance24",
+    "count": "5"
+  },
+  {
+    "source": "instance19",
+    "target": "instance3",
+    "count": "0"
+  },
+  {
+    "source": "instance22",
+    "target": "instance10",
+    "count": "11"
+  },
+  {
+    "source": "instance24",
+    "target": "instance12",
+    "count": "3"
+  },
+  {
+    "source": "instance29",
+    "target": "instance13",
+    "count": "17"
+  }
+]

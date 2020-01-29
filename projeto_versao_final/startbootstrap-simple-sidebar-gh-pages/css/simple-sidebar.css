@@ -1,0 +1,278 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/template-overviews/simple-sidebar)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+
+
+ .faded{
+   opacity: .2;
+ }
+
+ .hiighlight{
+   stroke-width: 3;
+ }
+
+
+ .link {
+  stroke: #aaa;
+  /*fill:#ffff00;*/
+}
+
+.node text {
+stroke:#ff0000;
+cursos:pointer;
+}
+
+.node circle{
+/*stroke:#0080ff;*/
+stroke-width:100px;
+/*fill:#0080ff;*/
+text:"default"
+}
+
+#wrapper{
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+
+}
+
+/* Demo styles */
+
+html,
+body {
+  height: 100%;
+
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background: #c5d2f1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+.app {
+  width: 700px;
+  height: 250px;
+  /*border-radius: 20px;*/
+   border: 0px;
+  background: #00d27f	;
+  /*overflow-y: scroll;*/
+}
+
+.hs > li,
+.item {
+  scroll-snap-align: center;
+  padding: calc(var(--gutter) / 2 * 1.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #00d27f;
+  border-radius: 8px;
+}
+
+ul::-webkit-scrollbar {
+    width: 1em;
+    background-color: #aaa;
+}
+ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+h1{
+ font-size: 25px;
+}
+
+#navbar{
+  text-align: center;
+}
+#mytimeline{
+  /*height: 64%;
+  width: 52%;*/
+  position:relative;
+}
+
+#graph{
+  width: 60%;
+  background: #7abaff;
+  float: left;
+}
+
+
+.titleGraph{
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+}
+.left-div {
+  float: left;
+  width: 68%;
+  height: 94%;
+  margin-right: 8px;
+  background: rgb(32,255,255);
+  background: linear-gradient(90deg, rgba(32,255,255,1) 0%, rgba(205,246,255,1) 49%, rgba(118,255,255,1) 100%);
+  border: #007bff;
+  border-radius: 5px;
+  border: 4px
+}
+
+#left-div{
+  width: 68%;
+  height: 99%;
+  max-height: 99%;
+  margin-right: 8px;
+  border: #007bff;
+  border-radius: 5px;
+  border: 4px
+ /* background: rgb(32,255,255);
+  background: linear-gradient(90deg, rgba(32,255,255,1) 0%, rgba(205,246,255,1) 49%, rgba(118,255,255,1) 100%);*/
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3269ff+70,7db9e8+100&1+0,0+100 */
+  background: -moz-linear-gradient(-45deg, rgba(50,105,255,1) 0%, rgba(50,105,255,0.3) 70%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, rgba(50,105,255,1) 0%,rgba(50,105,255,0.3) 70%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, rgba(50,105,255,1) 0%,rgba(50,105,255,0.3) 70%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3269ff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.row{
+  background: #42cef5;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+
+#showInfo{
+  background: #007bff;
+  /*position: relative;*/
+  width: 55%;
+  height: 100%;
+  float: right;
+
+}
+
+.container div {
+  display: inline-block;
+
+}
+
+#lineCont{
+  height: 21%;
+  top: 0%;
+  /*margin-bottom: 0%;*/
+  /*padding-top: 5%;*/
+  position:relative;
+  border: #007bff;
+  border-radius: 5px;
+  border: 4px;
+  background-image: linear-gradient(to right bottom, #00d3ff, #73dffc, #a6eafb, #d0f4fc, #f8feff);
+}
+
+.row{
+  margin-left: 0%;
+  height: 93%;
+}
+
+#line{
+  top:0%;
+}
+
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    max-height: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+
+

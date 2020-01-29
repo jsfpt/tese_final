@@ -1,0 +1,152 @@
+{"links":[
+  {
+    "from": "service2",
+    "to": "service2",
+    "numberCalls": "23"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "31"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "32"
+  },
+  {
+    "from": "service1",
+    "to": "service1",
+    "numberCalls": "13"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "34"
+  },
+  {
+    "from": "service2",
+    "to": "service2",
+    "numberCalls": "23"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "31"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "32"
+  },
+  {
+    "from": "service1",
+    "to": "service1",
+    "numberCalls": "13"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "34"
+  },
+  {
+    "from": "service2",
+    "to": "service2",
+    "numberCalls": "23"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "31"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "32"
+  },
+  {
+    "from": "service1",
+    "to": "service1",
+    "numberCalls": "13"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "34"
+  },
+  {
+    "from": "service2",
+    "to": "service2",
+    "numberCalls": "23"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "31"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "32"
+  },
+  {
+    "from": "service1",
+    "to": "service1",
+    "numberCalls": "13"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "34"
+  },
+  {
+    "from": "service2",
+    "to": "service2",
+    "numberCalls": "23"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "31"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "32"
+  },
+  {
+    "from": "service1",
+    "to": "service1",
+    "numberCalls": "13"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "34"
+  },
+  {
+    "from": "service2",
+    "to": "service2",
+    "numberCalls": "23"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "31"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "32"
+  },
+  {
+    "from": "service1",
+    "to": "service1",
+    "numberCalls": "13"
+  },
+  {
+    "from": "service3",
+    "to": "service3",
+    "numberCalls": "34"
+  }
+]}

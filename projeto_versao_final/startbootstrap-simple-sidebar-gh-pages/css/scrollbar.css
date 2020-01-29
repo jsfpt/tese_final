@@ -1,0 +1,54 @@
+/* customize scrollbar css */
+#right-div::-webkit-scrollbar{
+    width:12px;
+    background-color:#cccccc;
+}
+#right-div::-webkit-scrollbar:horizontal{
+    height:12px;
+}
+#right-div::-webkit-scrollbar-track{
+    border:1px #787878 solid;
+    border-radius:10px;
+    -webkit-box-shadow:0 0 6px #c8c8c8 inset;
+}
+#right-div::-webkit-scrollbar-thumb{
+    background-color:#0094ff;
+    border:1px solid #000000;
+    border-radius:16px;
+}
+#right-div::-webkit-scrollbar-thumb:hover{
+    background-color:#0500ff;
+    border:1px solid #333333;
+}
+#right-div::-webkit-scrollbar-thumb:active {
+    background-color: #a6393d;
+    border: 1px solid #333333;
+}
+
+
+/*-----------------------------------------------------*/
+#line::-webkit-scrollbar{
+    width:12px;
+    background-color:#cccccc;
+}
+#line::-webkit-scrollbar:horizontal{
+    height:12px;
+}
+#line::-webkit-scrollbar-track{
+    border:1px #787878 solid;
+    border-radius:10px;
+    -webkit-box-shadow:0 0 6px #c8c8c8 inset;
+}
+#line::-webkit-scrollbar-thumb{
+    background-color:#0094ff;
+    border:1px solid #000000;
+    border-radius:16px;
+}
+#line::-webkit-scrollbar-thumb:hover{
+    background-color:#0500ff;
+    border:1px solid #333333;
+}
+#line::-webkit-scrollbar-thumb:active {
+    background-color: #a6393d;
+    border: 1px solid #333333;
+}

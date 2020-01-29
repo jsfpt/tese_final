@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/arangodb-java-driver-5.0.6.jar" sourcepath="/home/joel/.m2/repository/com/arangodb/arangodb-java-driver/5.0.6/arangodb-java-driver-5.0.6-sources.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/gson/gson-2.6.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/gson/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/velocypack-1.4.1.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/jars/slf4j-api-1.7.13.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/jars/commons-codec-1.12.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/jars/jackson-core-2.9.5.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/proto3/jersey-container-servlet-core-2.27.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/proto3/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/proto3/genson-1.4.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/jars/asm-3.3.1.jar"/>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/jars/json-20190722.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/joel/Desktop/prototipo/influxdb-java-2.16.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

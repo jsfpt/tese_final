@@ -1,0 +1,189 @@
+Info para configuração:
+
+      -Time resolution
+
+      -Init time
+
+      -End time
+
+      -For each exate time:
+
+        - A list of instances
+        - A list of edges.
+        - A list of Workflows  (edge sequence, for each edge: http code, response time)
+        - A list of edges in edges                    |( problemas extra, anotados previamente)
+
+
+
+Instances:
+
+
+    - Service name
+
+    -Name
+
+    Agrupar:
+
+          Info de regiao
+
+          Tipo de serviço
+
+          Cloud provider
+
+          Ip do cluster
+
+
+
+    -Número total de requests
+
+    -Http codes, número de requests por cada http code, Tempo de resposta médio
+
+    -Lista de problemas previamente anotados,     (para além dos problemas calculados pelo tempo de resposta e do número de requests por cada http code)
+
+
+Edge dirigido:
+
+  - id do service From,id serice target.
+
+  -  Lista de http codes, para cada http code diferente:
+
+        - Tempo de resposta médio
+
+        - Nº de requests para cada
+
+  - Tempo de resposta médio geral
+
+
+
+Features:
+
+    Agrupamento:
+
+     1- Regiao
+         Europa,America...
+
+     2- Tipo de serviços
+        Ex:DB persistente
+
+            Logging
+
+            API
+
+            Message Service
+
+            Presentation service
+    3- Cloud provider
+
+        Aws
+        AZURE
+        Google Cloud
+        IBM cloud
+        Oracle cloud
+        Kamatere
+        VMware
+        RedHat
+
+    4- Cluster
+      Ip para identificar o Cluster
+      Multiplos serviços correm no mesmo cluster
+
+    5- Agrupar instancias
+
+    6- Grafo com instancias
+
+
+
+    Grafo com agrupamento:
+
+      CLick:
+        Mostar Instâncias correspondentes
+
+
+    Grafo sem agrupamento:
+
+        Links:
+
+          Grossura do link representa o número de requests
+
+          Cor do link representa o tempo médio  (calculado com base no tempo de resposta geral)
+
+              Verde
+
+              Laranja
+
+              Vermelho
+
+          Click:
+
+            Caixa com informaçao do link
+
+
+        Instancia:
+
+          Nome da Instancia
+
+          Logo com o tipo de serviço
+
+          Tamanho:
+            Representa o número de pedidos
+
+          Cor:
+            Representa o tempo de resposta médio dos request que chegam e que saem da instancia
+
+            Cor diferente se houver algum problema anotado
+
+          Click:
+            Info da Instancia
+
+    Comparação de grafos:
+
+      Link:
+
+        Cor:
+          Verde aparecimento de link
+
+        Vermelho:
+          Desaparecimento de link
+
+
+        Click:
+          Info relativa ao link
+
+
+      Service:
+
+        Cor: aparecimento e Desaparecimento
+
+        Click:
+
+          info relativa ao serviço/Instancia
+
+
+
+    Workflows
+
+      - Sequência de edges correspondentes ao Workflow
+
+      - Para cada edge:
+
+          - lista de http codes:
+                - tempo médio de resposta por cada.
+
+                - Número de requests por cada diferente
+
+
+      - Descrição de erro, nulo se não houver:
+          -tipos de erros relacionados com:
+            - http codes
+
+            - tempos de resposta
+
+            - Service not found
+
+            - Not reply
+
+            ....
+
+      Features extra:
+
+        Opçao de ver so um certo tipo de serviços
